@@ -1,0 +1,38 @@
+.topbar {
+  background-color: #464775;
+  display: flex;
+}
+.teams {
+  color: white;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.searchbar {
+  border: 0;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 0.3rem;
+  color: #fff;
+  margin-top: 10px;
+  padding: 0 3rem 0.1rem 1.2rem;
+  height: 2em;
+  width: 170%;
+}
+input:focus,
+textarea {
+  outline: none !important;
+}
+.gridIcon {
+  color: white;
+  width: 25px;
+  height: 25px;
+  margin-top: 17px;
+  margin-left: -5em;
+}
+.dotIcon {
+  color: white;
+  width: 25px;
+  height: 25px;
+  margin-top: 17px;
+  margin-left: 27rem;
+}
