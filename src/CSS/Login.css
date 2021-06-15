@@ -1,0 +1,49 @@
+.box {
+  background-color: #4b53bc;
+}
+.topHeader {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  display: block;
+  clear: both;
+  text-align: center;
+  float: none;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.teams {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 56px;
+  color: #4b53bc;
+  letter-spacing: -0.01em;
+  margin-bottom: 3px;
+  display: block;
+}
+
+.meet {
+  font-weight: 400;
+  font-size: 34px;
+  padding: 0;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+.btn1 {
+  background-color: #4b53bc;
+  margin: 4px;
+  min-width: 230px;
+  padding: 9px;
+  color: white;
+  border: white;
+}
+.btn2 {
+  color: #4b53bc;
+  border: 2px solid #4b53bc;
+  margin: 4px;
+  background-color: white;
+  min-width: 230px;
+  padding: 9px;
+}
