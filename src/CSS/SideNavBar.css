@@ -1,16 +1,21 @@
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 72px;
+  width: 70px;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
   overflow: auto;
 }
-
 .sidebar a {
   display: block;
-  color: black;
   padding: 16px;
   text-decoration: none;
+  font-size: 12px;
+}
+.icons {
+  color: #464775;
+  font-size: 23px;
+  margin-left: 3px;
+  margin-top: -15px;
 }
