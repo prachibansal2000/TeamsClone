@@ -1,4 +1,5 @@
 import "../CSS/SideNavBar.css";
+import { Link } from "react-router-dom";
 import { BsBellFill, BsThreeDots, BsChatDots } from "react-icons/bs";
 import { SiMicrosoftteams } from "react-icons/si";
 import { FaRegCalendarAlt } from "react-icons/fa";
@@ -8,35 +9,35 @@ import { BiHelpCircle } from "react-icons/bi";
 const sidenav = () => {
   return (
     <div class="sidebar">
-      <a>
+      <Link to="/signUp">
         <BsChatDots className="icons" />
         Chat
-      </a>
-      <a>
+      </Link>
+      <Link to="/assignment">
         <BsBellFill className="icons" />
         Activity
-      </a>
-      <a>
+      </Link>
+      <a href="/">
         <SiMicrosoftteams className="icons" />
         Teams
       </a>
-      <a>
+      <a href="/">
         <FaRegCalendarAlt className="icons" />
         Calendar
       </a>
-      <a>
+      <Link to="/files">
         <ImFilesEmpty className="icons" />
         Files
-      </a>
-      <a>
+      </Link>
+      <a href="/">
         <BsThreeDots className="icons" />
       </a>
       <div style={{ marginTop: "60px" }}>
-        <a>
+        <a href="/">
           <AiTwotoneAppstore className="icons" />
           Apps
         </a>
-        <a>
+        <a href="/">
           <BiHelpCircle className="icons" />
           Help
         </a>

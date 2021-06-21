@@ -1,14 +1,25 @@
 import "./App.css";
-import SignUp from "./Components/SignUp";
-import Sidebar from "./Components/SideNavBar";
+import { Switch, Route } from "react-router-dom";
+import Assignment from "./Components/Assignment";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./Components/NavbarHorizontal";
+import Main from "./Components/MainComponent";
+import Files from "./Components/Files";
+
 function App() {
   return (
     <div className="App">
-      {/*<SignUp />*/}
-      <Navbar />
-      <Sidebar />
+      <Main />
+      <Switch>
+        <Route path="/assignment">
+          <Assignment />
+        </Route>
+        <Route path="/file">
+          <Assignment />
+        </Route>
+        <Route path="/files">
+          <Files />
+        </Route>
+      </Switch>
     </div>
   );
 }

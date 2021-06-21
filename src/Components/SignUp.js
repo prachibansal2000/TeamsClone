@@ -1,6 +1,6 @@
 import React from "react";
 import "../CSS/Login.css";
-
+import { Link } from "react-router-dom";
 function Sign() {
   return (
     <div style={{ backgroundColor: "#f5f5f5" }}>
@@ -16,13 +16,17 @@ function Sign() {
             <p className="meet">
               <br />
               <br />
-              <span className="teams">Microsoft Teams</span>
+              <span className="loginTeams">Microsoft Teams</span>
               Meet, chat, call, and collaborate in just one place.
             </p>
             <br />
-            <button className="btn1">Sign up for free</button>
+            <Link to="/signup">
+              <button className="btn1">Sign up for free</button>
+            </Link>
             <br />
-            <button className="btn2">Sign in</button>
+            <Link to="/signup">
+              <button className="btn2">Sign in</button>
+            </Link>
           </div>
           <div className="col-lg-4">
             <img
