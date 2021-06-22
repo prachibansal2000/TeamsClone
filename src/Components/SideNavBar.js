@@ -1,21 +1,22 @@
 import "../CSS/SideNavBar.css";
 import { Link } from "react-router-dom";
-import { BsBellFill, BsThreeDots, BsChatDots } from "react-icons/bs";
+import { BsThreeDots, BsChatDots } from "react-icons/bs";
 import { SiMicrosoftteams } from "react-icons/si";
 import { FaRegCalendarAlt } from "react-icons/fa";
 import { ImFilesEmpty } from "react-icons/im";
 import { AiTwotoneAppstore } from "react-icons/ai";
 import { BiHelpCircle } from "react-icons/bi";
+import { GiSchoolBag } from "react-icons/gi";
 const sidenav = () => {
   return (
     <div class="sidebar">
-      <Link to="/signUp">
+      <Link to="/">
         <BsChatDots className="icons" />
         Chat
       </Link>
       <Link to="/assignment">
-        <BsBellFill className="icons" />
-        Activity
+        <GiSchoolBag className="icons" />
+        Assignment
       </Link>
       <a href="/">
         <SiMicrosoftteams className="icons" />
@@ -32,7 +33,7 @@ const sidenav = () => {
       <a href="/">
         <BsThreeDots className="icons" />
       </a>
-      <div style={{ marginTop: "60px" }}>
+      <div style={{ marginTop: "8rem" }}>
         <a href="/">
           <AiTwotoneAppstore className="icons" />
           Apps

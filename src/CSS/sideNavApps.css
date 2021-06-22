@@ -1,0 +1,43 @@
+.sideNavApp {
+  width: 20rem;
+  background-color: #fff;
+  position: fixed;
+  height: 100%;
+  margin-top: -100px;
+  box-shadow: 1.6rem 0 1.8rem -0.4rem rgb(0 0 0 / 10%);
+}
+
+.sideNavApp a {
+  display: block;
+}
+
+.sideapps {
+  padding: 4px;
+}
+.sideicon {
+  color: black;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.ms365 {
+  margin: -1.5rem 0 0 9rem;
+  color: #464775;
+}
+.sidenavicons {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.sidenavicons span {
+  font-size: 15px;
+  margin-left: 10px;
+  color: black;
+}
+.allsideicons {
+  margin: 48px 0 0 19px;
+}
+.allsideicons p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #424242;
+}

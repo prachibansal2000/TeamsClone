@@ -20,13 +20,9 @@ function Sign() {
               Meet, chat, call, and collaborate in just one place.
             </p>
             <br />
-            <Link to="/signup">
-              <button className="btn1">Sign up for free</button>
-            </Link>
+            <button className="btn1">Sign up for free</button>
             <br />
-            <Link to="/signup">
-              <button className="btn2">Sign in</button>
-            </Link>
+            <button className="btn2">Sign in</button>
           </div>
           <div className="col-lg-4">
             <img

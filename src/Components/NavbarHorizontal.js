@@ -1,14 +1,14 @@
 import "../CSS/NavBarHorizontal.css";
 import { BsGrid3X3Gap, BsThreeDots, BsPeopleCircle } from "react-icons/bs";
-
+import { Link } from "react-router-dom";
 const navbar = () => {
   return (
     <div className="topbar">
       <div className="container">
         <div className="row">
-          <div>
+          <Link to="/sidenavapp">
             <BsGrid3X3Gap className="gridIcon" />
-          </div>
+          </Link>
           <div className="col-3">
             <p className="teams">Microsoft Teams</p>
           </div>
