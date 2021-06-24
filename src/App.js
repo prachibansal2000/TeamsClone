@@ -5,12 +5,25 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Main from "./Components/MainComponent";
 import Files from "./Components/Files";
 import SideNavApp from "./Components/SideNavApps";
+import AppsPage from "./Components/AppsPage";
+import Sign from "./Components/SignUp";
+import Help from "./Components/Help";
+import Calendar from "./TeamsCalendar/calendar_app";
 
 function App() {
   return (
     <div className="App">
       <Main />
       <Switch>
+        <Route path="/sign">
+          <Sign />
+        </Route>
+        <Route path="/calendar">
+          <Calendar />
+        </Route>
+        <Route path="/sidenavapp">
+          <SideNavApp />
+        </Route>
         <Route path="/sidenavapp">
           <SideNavApp />
         </Route>
@@ -19,6 +32,12 @@ function App() {
         </Route>
         <Route path="/files">
           <Files />
+        </Route>
+        <Route path="/appsPages">
+          <AppsPage />
+        </Route>
+        <Route path="/help">
+          <Help />
         </Route>
       </Switch>
     </div>

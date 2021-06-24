@@ -7,7 +7,8 @@ import { ImFilesEmpty } from "react-icons/im";
 import { AiTwotoneAppstore } from "react-icons/ai";
 import { BiHelpCircle } from "react-icons/bi";
 import { GiSchoolBag } from "react-icons/gi";
-const sidenav = () => {
+
+const Sidenav = () => {
   return (
     <div class="sidebar">
       <Link to="/">
@@ -22,7 +23,7 @@ const sidenav = () => {
         <SiMicrosoftteams className="icons" />
         Teams
       </a>
-      <a href="/">
+      <a href="/calendar">
         <FaRegCalendarAlt className="icons" />
         Calendar
       </a>
@@ -34,11 +35,11 @@ const sidenav = () => {
         <BsThreeDots className="icons" />
       </a>
       <div style={{ marginTop: "8rem" }}>
-        <a href="/">
+        <a href="/appsPages">
           <AiTwotoneAppstore className="icons" />
           Apps
         </a>
-        <a href="/">
+        <a href="/help">
           <BiHelpCircle className="icons" />
           Help
         </a>
@@ -47,4 +48,4 @@ const sidenav = () => {
   );
 };
 
-export default sidenav;
+export default Sidenav;

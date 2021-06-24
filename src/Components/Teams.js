@@ -3,6 +3,7 @@ import "../CSS/Teams.css";
 import { FiSettings } from "react-icons/fi";
 import { AiOutlineTeam } from "react-icons/ai";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 const Teams = () => {
   return (
     <div className="container">

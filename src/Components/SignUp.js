@@ -1,6 +1,6 @@
 import React from "react";
 import "../CSS/Login.css";
-import { Link } from "react-router-dom";
+
 function Sign() {
   return (
     <div style={{ backgroundColor: "#f5f5f5" }}>
