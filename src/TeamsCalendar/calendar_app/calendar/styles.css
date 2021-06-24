@@ -50,7 +50,7 @@
   line-height: 44px;
   text-align: center;
   text-transform: uppercase;
-  color: var(--black);
+  color: #464775;
   font-weight: 700;
 }
 .calendar .week div {
@@ -74,6 +74,8 @@
   width: 90px;
   height: 44px;
   position: relative;
+  font-size: 20px;
+  font-weight: 700;
   color: var(--black);
   z-index: 100;
   line-height: 44px;

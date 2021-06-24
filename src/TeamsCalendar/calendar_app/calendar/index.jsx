@@ -6,6 +6,7 @@ import "./styles.css";
 export default function Calendar({ value, onChange }) {
   const [calendar, setCalendar] = useState([]);
 
+  //when we select the date from next month the calendar will re-render and show the dates of that month
   useEffect(() => {
     setCalendar(buildCalendar(value));
   }, [value]);
@@ -13,11 +14,15 @@ export default function Calendar({ value, onChange }) {
   function buildCalendar(date) {
     const a = [];
 
+    //date on the start of the week of the calendar
     const startDay = date.clone().startOf("month").startOf("week");
+
+    //end date on the end of the week of the calendar
     const endDay = date.clone().endOf("month").endOf("week");
 
     const _date = startDay.clone().subtract(1, "day");
 
+    //loop for dates between start and end date
     while (_date.isBefore(endDay, "day")) {
       a.push(
         Array(7)
@@ -40,6 +45,7 @@ export default function Calendar({ value, onChange }) {
     return moment(new Date()).isSame(day, "day");
   }
 
+  //return the css class
   function dayStyles(day) {
     if (beforeToday(day)) return "before";
     if (isSelected(day)) return "selected";
@@ -76,6 +82,7 @@ export default function Calendar({ value, onChange }) {
                   onChange(day);
                 }}
               >
+                {/*printing the dates  */}
                 <div className={dayStyles(day)}>
                   {day.format("D").toString()}
                 </div>
