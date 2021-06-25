@@ -3,7 +3,7 @@ import "../CSS/Teams.css";
 import { FiSettings } from "react-icons/fi";
 import { AiOutlineTeam } from "react-icons/ai";
 import { Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+
 const Teams = () => {
   return (
     <div className="container">
@@ -11,9 +11,11 @@ const Teams = () => {
         <div className="headTeams">Teams</div>
         <div className="settingButton">
           <FiSettings className="settings" />
-          <Button className="teamsButton">
-            <AiOutlineTeam /> Join or create team
-          </Button>
+          <a href="https://video-chat-pb.netlify.app/">
+            <Button className="teamsButton">
+              <AiOutlineTeam /> Join or create team
+            </Button>
+          </a>
         </div>
       </div>
     </div>
