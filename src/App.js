@@ -9,8 +9,14 @@ import AppsPage from "./Components/AppsPage";
 import Sign from "./Components/SignUp";
 import Help from "./Components/Help";
 import Calendar from "./TeamsCalendar/calendar_app";
+import Chat from "./Chat/src/App";
+import Login from "./Components/Login";
+import Signup from "./Components/SignUp";
 
 function App() {
+  if (!localStorage.getItem("clicked")) return <Signup />;
+  if (!localStorage.getItem("email")) return <Login />;
+
   return (
     <div className="App">
       <Main />
@@ -38,6 +44,9 @@ function App() {
         </Route>
         <Route path="/help">
           <Help />
+        </Route>
+        <Route path="/chat">
+          <Chat />
         </Route>
       </Switch>
     </div>

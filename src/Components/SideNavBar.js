@@ -11,10 +11,6 @@ import { GiSchoolBag } from "react-icons/gi";
 const Sidenav = () => {
   return (
     <div class="sidebar">
-      <Link to="/">
-        <BsChatDots className="icons" />
-        Chat
-      </Link>
       <Link to="/assignment">
         <GiSchoolBag className="icons" />
         Assignment
@@ -27,6 +23,10 @@ const Sidenav = () => {
         <FaRegCalendarAlt className="icons" />
         Calendar
       </a>
+      <Link to="/chat">
+        <BsChatDots className="icons" />
+        Chat
+      </Link>
       <Link to="/files">
         <ImFilesEmpty className="icons" />
         Files

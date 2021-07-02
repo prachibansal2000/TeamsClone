@@ -6,18 +6,14 @@ import { Button } from "react-bootstrap";
 
 const Teams = () => {
   return (
-    <div className="container">
-      <div className="row">
-        <div className="headTeams">Teams</div>
-        <div className="settingButton">
-          <FiSettings className="settings" />
-          <a href="https://video-chat-pb.netlify.app/">
-            <Button className="teamsButton">
-              <AiOutlineTeam /> Join or create team
-            </Button>
-          </a>
-        </div>
-      </div>
+    <div>
+      <div className="headTeams">Teams</div>
+      <Button className="teamsButton">
+        <AiOutlineTeam />
+        <span className="showText">Join meeting</span>
+        <span className="hiddenText">Join or create team</span>
+      </Button>
+      <FiSettings className="settings" />
     </div>
   );
 };

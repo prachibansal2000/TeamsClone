@@ -3,18 +3,44 @@
   background: #fff;
   border: 0;
   color: #252423;
+  margin-left: 38%;
+  margin-right: 2%;
 }
+
 .headTeams {
   font-size: 1.8rem;
   font-weight: 700;
   display: inline-block;
   line-height: 1.4286;
+  margin-left: 12rem;
 }
 .settings {
   font-size: 20px;
-  margin-right: 3rem;
 }
-.settingButton {
-  margin-top: 10px;
-  margin-left: 50rem;
+@media screen and (max-width: 835px) {
+  .settings {
+    display: none;
+  }
+}
+@media screen and (max-width: 776px) {
+  .teamsButton {
+    margin-left: 21%;
+  }
+  .headTeams {
+    font-size: 22px;
+    margin-left: 17%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .headTeams {
+    margin-left: 26%;
+  }
+  .teamsButton {
+    margin-left: 4%;
+  }
+}
+@media screen and (max-width: 318px) {
+  .teamsButton {
+    margin-left: 1%;
+  }
 }

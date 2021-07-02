@@ -2,22 +2,33 @@
   background-color: #464775;
   display: flex;
 }
+.showText {
+  display: none;
+}
 .teams {
   color: white;
-  font-size: 20px;
+  font-size: 122%;
   font-weight: 600;
   margin-top: 6px;
 }
-
+.logOutButton {
+  background-color: white;
+  color: black;
+  border: none;
+  margin-left: 0%;
+  font-size: 12px;
+  margin-top: 8px;
+}
 .searchbar {
   border: 0;
   background: rgba(255, 255, 255, 0.8);
   border-radius: 0.3rem;
   color: #fff;
-  margin-top: 10px;
   padding: 0 3rem 0.1rem 1.2rem;
   height: 2em;
-  width: 170%;
+  margin-left: -12%;
+  margin-top: 0.5rem;
+  width: 110%;
 }
 input:focus,
 textarea {
@@ -28,12 +39,36 @@ textarea {
   width: 25px;
   height: 25px;
   margin-top: 10px;
-  margin-left: -5em;
+  margin-left: 2rem;
 }
-.dotIcon {
+
+.homeIcon {
+  margin-top: 10px;
+  font-size: 23px;
+  margin-left: 0%;
+  margin-right: 12px;
   color: white;
-  width: 25px;
-  height: 25px;
-  margin-top: 17px;
-  margin-left: 27rem;
+}
+@media screen and (max-width: 731px) {
+  .teams {
+    font-size: 15px;
+  }
+  .searchbar {
+    height: 15%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .showText {
+    display: inline-block;
+    font-size: 18px;
+  }
+  .hiddenText {
+    display: none;
+  }
+}
+@media screen and (max-width: 310px) {
+  .logOutButton {
+    margin-left: -14%;
+    padding: 2px 6px;
+  }
 }
