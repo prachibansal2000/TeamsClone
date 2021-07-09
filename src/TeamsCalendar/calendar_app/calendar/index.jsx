@@ -64,10 +64,9 @@ export default function Calendar({ value, onChange }) {
   return (
     <div className="calendar">
       <Header value={value} onChange={onChange} />
-
       <div className="body">
         <div className="day-names">
-          {["sun", "mon", "tue", "wed", "thu", "fri", "sat"].map((d) => (
+          {["s", "m", "t", "w", "t", "f", "s"].map((d) => (
             <div className="week">{d}</div>
           ))}
         </div>

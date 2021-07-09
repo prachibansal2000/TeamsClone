@@ -1,5 +1,5 @@
 import "./App.css";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import Assignment from "./Components/Assignment";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Main from "./Components/MainComponent";
@@ -12,23 +12,25 @@ import Calendar from "./TeamsCalendar/calendar_app";
 import Chat from "./Chat/src/App";
 import Login from "./Components/Login";
 import Signup from "./Components/SignUp";
+import Welcome from "./Components/Welcome";
 
 function App() {
   if (!localStorage.getItem("clicked")) return <Signup />;
   if (!localStorage.getItem("email")) return <Login />;
+  if (!localStorage.getItem("password")) return <Login />;
 
   return (
     <div className="App">
       <Main />
       <Switch>
+        <Route path="/welcome">
+          <Welcome />
+        </Route>
         <Route path="/sign">
           <Sign />
         </Route>
         <Route path="/calendar">
           <Calendar />
-        </Route>
-        <Route path="/sidenavapp">
-          <SideNavApp />
         </Route>
         <Route path="/sidenavapp">
           <SideNavApp />
@@ -48,6 +50,8 @@ function App() {
         <Route path="/chat">
           <Chat />
         </Route>
+        <Redirect to="/welcome" />
+        {/* welcome is open when there is no path defined */}
       </Switch>
     </div>
   );

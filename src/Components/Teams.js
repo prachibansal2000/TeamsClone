@@ -9,9 +9,11 @@ const Teams = () => {
     <div>
       <div className="headTeams">Teams</div>
       <Button className="teamsButton">
-        <AiOutlineTeam />
-        <span className="showText">Join meeting</span>
-        <span className="hiddenText">Join or create team</span>
+        <a style={{ color: "black" }} href="https://videocallpb.netlify.app">
+          <AiOutlineTeam />
+          <span className="showText">Join meeting</span>
+          <span className="hiddenText">Join or create team</span>
+        </a>
       </Button>
       <FiSettings className="settings" />
     </div>

@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
   },
   avatar: {
     margin: theme.spacing(1),
-    backgroundColor: theme.palette.secondary.main,
+    backgroundColor: "#464775",
   },
   form: {
     width: "100%",
@@ -34,9 +34,12 @@ export default function SignIn() {
   const classes = useStyles();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const welcome = "welcomepage";
 
   localStorage.setItem("email", email);
   localStorage.setItem("password", password);
+  localStorage.setItem("welcome", welcome);
+
   return (
     <Container component="main" maxWidth="xs">
       <CssBaseline />
@@ -56,9 +59,9 @@ export default function SignIn() {
             onChange={(e) => setEmail(e.target.value)}
             fullWidth
             id="email"
-            label="Email Address"
+            label="Username"
             name="email"
-            autoComplete="email"
+            autoComplete="username"
             autoFocus
           />
           <TextField
@@ -83,6 +86,14 @@ export default function SignIn() {
             fullWidth
             variant="contained"
             color="primary"
+            onSubmit={() => {
+              return false;
+            }}
+            onClick={() => {
+              if (email === "" || password === "") {
+                alert("Enter the required field");
+              }
+            }}
             className={classes.submit}
           >
             Sign In
@@ -92,3 +103,4 @@ export default function SignIn() {
     </Container>
   );
 }
+//box

@@ -1,14 +1,56 @@
 .appsPages img {
-  width: 100%;
+  width: 70%;
   margin-left: 30px;
 }
 .appsImages {
   display: inline-flex;
   margin-top: 60px;
+  margin-left: 6%;
+}
+.up {
+  margin-right: 4%;
+}
+.up1 {
+  margin-right: -10%;
 }
 .down {
   margin-top: 60px;
+  margin-right: -10%;
+}
+.appsMainHeading {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.appsSubHeading {
+  font-size: 1.5rem;
 }
 .appsText {
-  margin-left: 27rem;
+  margin: 2% 26%;
+}
+@media screen and (max-width: 775px) {
+  .appsImages {
+    display: grid;
+    margin-top: 8%;
+  }
+  .up {
+    width: 35%;
+    margin-left: 42%;
+  }
+  .down {
+    width: 35%;
+    margin-left: 20%;
+    margin-top: -6%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .appsSubHeading {
+    font-size: 1rem;
+  }
+  .appsMainHeading {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  .appsPages {
+    margin-top: 7%;
+  }
 }

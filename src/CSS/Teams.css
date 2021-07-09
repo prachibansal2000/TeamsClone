@@ -3,10 +3,9 @@
   background: #fff;
   border: 0;
   color: #252423;
-  margin-left: 38%;
+  margin-left: 47%;
   margin-right: 2%;
 }
-
 .headTeams {
   font-size: 1.8rem;
   font-weight: 700;
@@ -17,18 +16,30 @@
 .settings {
   font-size: 20px;
 }
+@media screen and (max-width: 940px) {
+  .teamsButton {
+    margin-left: 40%;
+  }
+}
 @media screen and (max-width: 835px) {
   .settings {
     display: none;
   }
 }
-@media screen and (max-width: 776px) {
+@media screen and (max-width: 800px) {
   .teamsButton {
-    margin-left: 21%;
+    margin-left: 35%;
   }
+}
+@media screen and (max-width: 776px) {
   .headTeams {
     font-size: 22px;
     margin-left: 17%;
+  }
+}
+@media screen and (max-width: 469px) {
+  .teamsButton {
+    margin-left: 30%;
   }
 }
 @media screen and (max-width: 450px) {

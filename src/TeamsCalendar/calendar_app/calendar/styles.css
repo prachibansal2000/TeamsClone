@@ -21,7 +21,7 @@
 .calendar .day-names {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
+  margin-left: -4%;
 }
 
 .calendar .body {
@@ -45,7 +45,7 @@
 .calendar .week {
   background-color: white;
   width: calc(100% / 7);
-  margin-left: -9px;
+  margin-left: 0%;
   height: 44px;
   line-height: 44px;
   text-align: center;
@@ -80,6 +80,7 @@
   z-index: 100;
   line-height: 44px;
   cursor: pointer;
+  margin-left: 14%;
 }
 
 .calendar .day div.before {
@@ -95,4 +96,19 @@
 
 .calendar .day div.today {
   background-color: var(--grey);
+}
+
+@media screen and (max-width: 800px) {
+  .calendar .day div {
+    margin-left: -3%;
+  }
+}
+@media screen and (max-width: 690px) {
+  .calendar .day div {
+    margin-left: -12%;
+    width: 81%;
+  }
+  .calendar .day-names {
+    margin-left: -2%;
+  }
 }

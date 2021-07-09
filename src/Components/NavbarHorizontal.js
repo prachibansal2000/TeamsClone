@@ -27,10 +27,10 @@ const navbar = () => {
           </div>
         </form>
       </div>
-      <div>
-        <a href="/">
+      <div className="iconsCombined">
+        <Link to="/welcome">
           <AiFillHome className="homeIcon" />
-        </a>
+        </Link>
         <Button
           className="logOutButton"
           onClick={() => {
@@ -49,3 +49,4 @@ const navbar = () => {
 };
 
 export default navbar;
+//shift right

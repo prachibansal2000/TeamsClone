@@ -10,41 +10,43 @@ import { GiSchoolBag } from "react-icons/gi";
 
 const Sidenav = () => {
   return (
-    <div class="sidebar">
-      <Link to="/assignment">
-        <GiSchoolBag className="icons" />
-        Assignment
-      </Link>
-      <a href="/">
-        <SiMicrosoftteams className="icons" />
-        Teams
-      </a>
-      <a href="/calendar">
-        <FaRegCalendarAlt className="icons" />
-        Calendar
-      </a>
-      <Link to="/chat">
-        <BsChatDots className="icons" />
-        Chat
-      </Link>
-      <Link to="/files">
-        <ImFilesEmpty className="icons" />
-        Files
-      </Link>
-      <a href="/">
-        <BsThreeDots className="icons" />
-      </a>
-      <div style={{ marginTop: "8rem" }}>
-        <a href="/appsPages">
-          <AiTwotoneAppstore className="icons" />
-          Apps
-        </a>
-        <a href="/help">
-          <BiHelpCircle className="icons" />
-          Help
-        </a>
+    <>
+      <div class="sidebar">
+        <Link to="/assignment">
+          <GiSchoolBag className="icons" />
+          Assignment
+        </Link>
+        <Link to="/welcome">
+          <SiMicrosoftteams className="icons" />
+          Teams
+        </Link>
+        <Link to="/calendar">
+          <FaRegCalendarAlt className="icons" />
+          Calendar
+        </Link>
+        <Link to="/chat">
+          <BsChatDots className="icons" />
+          Chat
+        </Link>
+        <Link to="/files">
+          <ImFilesEmpty className="icons" />
+          Files
+        </Link>
+        <Link to="/">
+          <BsThreeDots className="icons" />
+        </Link>
+        <div style={{ marginTop: "8rem" }}>
+          <Link to="/appsPages">
+            <AiTwotoneAppstore className="icons" />
+            Apps
+          </Link>
+          <Link to="/help">
+            <BiHelpCircle className="icons" />
+            Help
+          </Link>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

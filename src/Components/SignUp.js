@@ -1,4 +1,3 @@
-import { WindowsFilled } from "@ant-design/icons";
 import React, { useState } from "react";
 import "../CSS/Signup.css";
 
