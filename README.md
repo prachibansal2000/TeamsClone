@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Rozgaar Job Search App for Blue Collar Workers
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Alt Text](https://media.giphy.com/media/A8pRmkexvl9jCdzS5D/giphy.gif)
 
-## Available Scripts
+## ❓ Problem Statement
 
-In the project directory, you can run:
+- Make a job-search platofrm for Blue Collar Workers.
 
-### `npm start`
+## [VIEW LIVE DEMO](https://practical-jepsen-534aed.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Note** : SMS can be sent to only Twilio verified numbers as I am not using the paid service.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🚧 Technology Stack
 
-### `npm test`
+- **Server Enviornment** - NodeJS
+- **Framework** - ExpressJS
+- **Frontend** - ReactJS, HTML, CSS, Javascript
+- **Database** - MongoDB
+- **Cloud database service** - MongoDB Atlas
+- **Module to send emails** - NodeMailer
+- **SMS sending** - Twilio
+- **Deployment** - Heroku
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⬇️ Installation
 
-### `npm run build`
+- First, fork this repository 🍴 and follow the given instructions:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+# clone the repository to your local machine
+$ git clone `git clone https://github.com/<YOUR-GITHUB-USERNAME>/Rozgaar-Blue-Collars-Job-Seach-Platform-Frontend.git`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# navigate to the project's directory and install all the relevant dev-dependencies
+$ cd Rozgaar-Blue-Collars-Job-Seach-Platform-Frontend && npm intsall
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Start application
+$ npm start
 
-### `npm run eject`
+# Make requests on http://localhost:3030/ from Postman
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Workflow
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I have identified 9 categories of job-seekers to make the platform more intuitive and simple.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Electrician
+- Plumber
+- Labour
+- Driver
+- Maid
+- Security guard
+- Cook
+- Peon
+- Mechanic
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### For Job Seeker
 
-## Learn More
+1. Register
+2. Update Profile
+3. Apply on jobs - just by clicking - as simple as that.
+4. The applicant gets an SMS on his/her phone number after applying to a job.
+   ![SMS TO APPLICANT](https://github.com/Manvityagi/Rozgaar-Blue-Collars-Job-Seach-Platform-Backend/raw/main/assets/msgToApplicant.jpg)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### For Job Poster
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Post Jobs
+2. Get applications on your posted jobs and shortlist.
+3. **Ease the flow** for both parties
+   - Job Seekers Profiles will be available all throughout, Recruiters can directly see their profiles and give them a message/call
+4. Job Poster gets an email when someone applies on a job posted by him/her.
+   ![MAIL TO RECRUITER](https://github.com/Manvityagi/Rozgaar-Blue-Collars-Job-Seach-Platform-Backend/raw/main/assets/recruiterMail.PNG)
 
-### Code Splitting
+#### Problems in Existing Solutions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Little Less user friendly for maybe not so literate people
+- Complicated Process - Blue Collars dont have a resume.
+- All in English
+- Lack of Support on chat/call
 
-### Analyzing the Bundle Size
+### Pending Tasks
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Unit Tests - Due to shortage of time, I couldn't write many unit-test.
+- Login Sessions and Dashboard of Applications
 
-### Making a Progressive Web App
+### Additional Features to be added after Hackathon:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Multi-lingual
+- Filters according to location, salary etc.
+- Stars/Reviews for job seekers
+- Register by calling also (for job seekers) - simply call on a support number and automated clicks on phone
