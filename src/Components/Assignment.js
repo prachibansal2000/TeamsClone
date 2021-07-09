@@ -14,6 +14,7 @@ const Assignment = () => {
       <p>
         <u>
           <a
+            target="blank"
             style={{ color: "black" }}
             href="https://support.microsoft.com/en-us/topic/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b?ui=en-us&rs=en-gb&ad=gb"
           >

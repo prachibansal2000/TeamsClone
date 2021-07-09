@@ -7,8 +7,8 @@ const Welcome = () => {
     <>
       <div className="welcomeBox">
         <h2 className="welcomeText">Welcome to Teams!</h2>
+        <ParticlesBg color="#ffffff" type="polygon" bg={true} />
       </div>
-      <ParticlesBg color="#ffffff" type="polygon" bg={true} />
     </>
   );
 };

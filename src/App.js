@@ -9,10 +9,11 @@ import AppsPage from "./Components/AppsPage";
 import Sign from "./Components/SignUp";
 import Help from "./Components/Help";
 import Calendar from "./TeamsCalendar/calendar_app";
-import Chat from "./Chat/src/App";
+import Chat from "./Chat/src/TeamsChat";
 import Login from "./Components/Login";
 import Signup from "./Components/SignUp";
 import Welcome from "./Components/Welcome";
+import VideoChat from "./Video_chat/src/components/App/App";
 
 function App() {
   if (!localStorage.getItem("clicked")) return <Signup />;
@@ -23,6 +24,9 @@ function App() {
     <div className="App">
       <Main />
       <Switch>
+        <Route path="/videochat">
+          <VideoChat />
+        </Route>
         <Route path="/welcome">
           <Welcome />
         </Route>

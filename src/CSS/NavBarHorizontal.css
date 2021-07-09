@@ -67,6 +67,7 @@ textarea {
   }
   .searchbar {
     height: 15%;
+    padding: 2% 7%;
   }
 }
 @media screen and (max-width: 650px) {
@@ -78,6 +79,9 @@ textarea {
   .showText {
     display: inline-block;
     font-size: 18px;
+  }
+  .searchbar {
+    padding: 3%;
   }
   .hiddenText {
     display: none;

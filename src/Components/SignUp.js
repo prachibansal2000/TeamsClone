@@ -25,7 +25,10 @@ function Sign() {
             </p>
             <br />
             <button className="btn1">
-              <a href="https://www.microsoft.com/en-in/microsoft-teams/download-app#desktopAppDownloadregion">
+              <a
+                target="blank"
+                href="https://www.microsoft.com/en-in/microsoft-teams/download-app#desktopAppDownloadregion"
+              >
                 Download now
               </a>
             </button>

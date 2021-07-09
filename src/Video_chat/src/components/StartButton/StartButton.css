@@ -1,0 +1,27 @@
+.start-button {
+  padding: 30px 40px;
+  position: absolute;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 17px;
+  color: black;
+  border: 0.16em solid rgba(255, 255, 255, 0);
+  border-radius: 0.5em;
+  top: 50%;
+  text-align: center;
+  transition: all 0.2s;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4b53bc;
+}
+
+.start-button:hover {
+  cursor: pointer;
+  font-size: 35px;
+  color: #fff;
+}
+.callHeading {
+  text-align: center;
+}

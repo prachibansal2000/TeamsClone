@@ -5,5 +5,13 @@
 }
 
 .welcomeText {
-  font-size: 5vw;
+  position: absolute;
+  top: 36%;
+  left: 30%;
+  font-size: 350%;
+}
+@media screen and (max-width: 400px) {
+  .welcomeText {
+    font-size: 300%;
+  }
 }
