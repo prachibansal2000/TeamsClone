@@ -1,25 +1,21 @@
-# Rozgaar Job Search App for Blue Collar Workers
+# Microsoft Teams Clone
 
 ![Alt Text](https://media.giphy.com/media/A8pRmkexvl9jCdzS5D/giphy.gif)
 
 ## ❓ Problem Statement
 
-- Make a job-search platofrm for Blue Collar Workers.
+- Make a Microsoft Teams Clone
 
 ## [VIEW LIVE DEMO](https://practical-jepsen-534aed.netlify.app/)
 
-**Note** : SMS can be sent to only Twilio verified numbers as I am not using the paid service.
-
+**Note** : Chat feature can be used only with **Username: PrachiBansal** and **Password: 123123**
 ## 🚧 Technology Stack
 
 - **Server Enviornment** - NodeJS
-- **Framework** - ExpressJS
 - **Frontend** - ReactJS, HTML, CSS, Javascript
-- **Database** - MongoDB
-- **Cloud database service** - MongoDB Atlas
-- **Module to send emails** - NodeMailer
-- **SMS sending** - Twilio
-- **Deployment** - Heroku
+- **SMS sending** - Chatengine.io 
+- **Video calling** - daily.co
+- **Deployment** - Netlify
 
 ## ⬇️ Installation
 
@@ -27,59 +23,63 @@
 
 ```
 # clone the repository to your local machine
-$ git clone `git clone https://github.com/<YOUR-GITHUB-USERNAME>/Rozgaar-Blue-Collars-Job-Seach-Platform-Frontend.git`
+$ git clone `git clone https://github.com/<YOUR-GITHUB-USERNAME>/TeamsClone.git`
 
 # navigate to the project's directory and install all the relevant dev-dependencies
-$ cd Rozgaar-Blue-Collars-Job-Seach-Platform-Frontend && npm intsall
+$ cd teams && npm intsall
 
 # Start application
 $ npm start
 
-# Make requests on http://localhost:3030/ from Postman
 ```
 
 ## Workflow
 
-I have identified 9 categories of job-seekers to make the platform more intuitive and simple.
+Sign Up Page
+Login Page
+Home Page
 
-- Electrician
-- Plumber
-- Labour
-- Driver
-- Maid
-- Security guard
-- Cook
-- Peon
-- Mechanic
+I have added easy to comprehend icons on the Homepage
 
-#### For Job Seeker
+- Microsoft Apps (on clicking grid icon)
+- Logout
+- Home
+- Assignemnt 
+- Teams
+- Chat
+- Calendar
+- Apps page
+- Help
 
-1. Register
-2. Update Profile
-3. Apply on jobs - just by clicking - as simple as that.
-4. The applicant gets an SMS on his/her phone number after applying to a job.
-   ![SMS TO APPLICANT](https://github.com/Manvityagi/Rozgaar-Blue-Collars-Job-Seach-Platform-Backend/raw/main/assets/msgToApplicant.jpg)
+#### For SignUp page
 
-#### For Job Poster
+- Click on SignUp button to navigate to SignIn page
+- If you want to download the desktop app click on download now button
 
-1. Post Jobs
-2. Get applications on your posted jobs and shortlist.
-3. **Ease the flow** for both parties
-   - Job Seekers Profiles will be available all throughout, Recruiters can directly see their profiles and give them a message/call
-4. Job Poster gets an email when someone applies on a job posted by him/her.
-   ![MAIL TO RECRUITER](https://github.com/Manvityagi/Rozgaar-Blue-Collars-Job-Seach-Platform-Backend/raw/main/assets/recruiterMail.PNG)
 
-#### Problems in Existing Solutions
+#### For SignIn Page
 
-- Little Less user friendly for maybe not so literate people
-- Complicated Process - Blue Collars dont have a resume.
-- All in English
-- Lack of Support on chat/call
+1. Enter any username
+2. Enter any password
+3. Click on signin to navigate to home page
 
-### Pending Tasks
 
-- Unit Tests - Due to shortage of time, I couldn't write many unit-test.
-- Login Sessions and Dashboard of Applications
+#### For Chat Application Login Page
+
+- Click on chat icon to open chat Login Page
+- Enter the username and password as mentioned above.
+
+#### For Chat Application
+- Plus icon on top left is to create a new group. 
+- You can share text and images and can also download those images.
+- If you are the creater of the group then on the right side you have options from where you can delete the group.
+- You can add new members by clicking on people.
+
+### Video Call
+- By clicking on join or create team button on left corner you will be navigated to video call home page
+- click on the start meeting button 
+- A link will be displayed share that link with others
+- In the video control panel there is video on/off , mute/unmute , sharing screen , chat and exit option.   
 
 ### Additional Features to be added after Hackathon:
 
