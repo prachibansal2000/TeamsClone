@@ -6,7 +6,7 @@
 
 - Make a Microsoft Teams Clone
 
-## [VIEW LIVE DEMO](https://practical-jepsen-534aed.netlify.app/)
+## [VIEW LIVE DEMO](https://teams-clone-app.netlify.app/)
 
 **Note** : Chat feature can be used only with **Username: PrachiBansal** and **Password: 123123**
 ## 🚧 Technology Stack
