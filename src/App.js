@@ -8,12 +8,12 @@ import SideNavApp from "./Components/SideNavApps";
 import AppsPage from "./Components/AppsPage";
 import Sign from "./Components/SignUp";
 import Help from "./Components/Help";
-import Calendar from "./TeamsCalendar/calendar_app";
-import Chat from "./Chat/src/TeamsChat";
+import Calendar from "./Components/TeamsCalendar/calendar_app/index";
+import Chat from "./Components/Chat/src/TeamsChat";
 import Login from "./Components/Login";
 import Signup from "./Components/SignUp";
 import Welcome from "./Components/Welcome";
-import VideoChat from "./Video_chat/src/components/App/App";
+import VideoChat from "./Components/Video_chat/src/components/App/App";
 
 function App() {
   if (!localStorage.getItem("clicked")) return <Signup />;
