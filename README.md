@@ -1,12 +1,12 @@
 # Microsoft Teams Clone
 
-![Alt Text](https://media.giphy.com/media/A8pRmkexvl9jCdzS5D/giphy.gif)
+![Alt Text](https://media.giphy.com/media/c85NDkXRlfhplxi044/giphy.gif)
 
 ## ❓ Problem Statement
 
 - Make a Microsoft Teams Clone
 
-## [VIEW LIVE DEMO](https://teams-clone-app.netlify.app/)
+## [VIEW LIVE DEMO](https://teams-application.netlify.app/)
 
 **Note** : Chat feature can be used only with **Username: PrachiBansal** and **Password: 123123**
 
