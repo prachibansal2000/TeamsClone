@@ -14,7 +14,7 @@
 
 - **Server Enviornment** - NodeJS
 - **Frontend** - ReactJS, HTML, CSS, Javascript
-- **SMS sending** - Chatengine.io
+- **SMS sending** - Chatengine.io 
 - **Video calling** - daily.co
 - **Deployment** - Netlify
 
@@ -45,7 +45,7 @@ I have added easy to comprehend icons on the Homepage
 - Microsoft Apps (on clicking grid icon)
 - Logout
 - Home
-- Assignement
+- Assignement 
 - Teams
 - Chat
 - Calendar
@@ -69,15 +69,14 @@ I have added easy to comprehend icons on the Homepage
 - Enter the username and password as mentioned above.
 
 ### For Chat Application
-
-- Plus icon on top left is to create a new group.
+- Plus icon on top left is to create a new group. 
 - You can share text and images and can also download those images.
 - If you are the creater of the group then on the right side you have options from where you can delete the group.
 - You can add new members by clicking on people.
 
 ### Video Call
-
 - By clicking on join or create team button on left corner you will be navigated to video call home page
-- click on the start meeting button
+- click on the start meeting button 
 - A link will be displayed share that link with others
-- In the video control panel there is video on/off , mute/unmute , sharing screen , chat and exit option.
+- In the video control panel there is video on/off , mute/unmute , sharing screen , chat and exit option.   
+
