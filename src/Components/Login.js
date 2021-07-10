@@ -14,8 +14,10 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     marginTop: theme.spacing(8),
     display: "flex",
+    padding: "10%",
     flexDirection: "column",
     alignItems: "center",
+    boxShadow: "2.6rem 1rem 2.8rem 1.6rem rgb(0 0 0 / 10%)",
   },
   avatar: {
     margin: theme.spacing(1),

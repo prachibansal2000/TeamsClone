@@ -81,3 +81,18 @@ I have added easy to comprehend icons on the Homepage
 - click on the start meeting button
 - A link will be displayed share that link with others
 - In the video control panel there is video on/off , mute/unmute , sharing screen , chat and exit option.
+
+### Future Scope
+
+- Organize online classes and meeting.
+- Share images and download them from the chat.
+
+### Pending Work
+
+- Able to see messages before and after that are sent during the video call.
+
+### Additional Features to be added after deadline
+
+- Add a Create Team option and able to add users to it.
+- Connect this project with the database so that only authorized Microsoft Teams user can sign in.
+- Option to remove or allow a user in the meeting.

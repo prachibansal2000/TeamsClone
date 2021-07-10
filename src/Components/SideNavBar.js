@@ -11,14 +11,14 @@ import { GiSchoolBag } from "react-icons/gi";
 const Sidenav = () => {
   return (
     <>
-      <div class="sidebar">
-        <Link to="/assignment">
-          <GiSchoolBag className="icons" />
-          Assignment
-        </Link>
+      <div className="sidebar">
         <Link to="/welcome">
           <SiMicrosoftteams className="icons" />
           Teams
+        </Link>
+        <Link to="/assignment">
+          <GiSchoolBag className="icons" />
+          Assignment
         </Link>
         <Link to="/calendar">
           <FaRegCalendarAlt className="icons" />
