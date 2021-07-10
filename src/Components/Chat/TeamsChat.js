@@ -3,7 +3,7 @@ import { ChatEngine } from "react-chat-engine";
 
 import ChatFeed from "./components/ChatFeed";
 import LoginForm from "./components/LoginForm";
-import "./App.css";
+import "./TeamsChat.css";
 
 const projectID = "45b24137-bf80-4b10-9cfb-4fa6fbc5f433";
 
@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <ChatEngine
-      height="100vh"
+      height="83vh"
       projectID={projectID}
       userName={localStorage.getItem("username")}
       userSecret={localStorage.getItem("password")}
