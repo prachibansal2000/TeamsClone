@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <ChatEngine
-      height="85vh"
+      height="100vh"
       projectID={projectID}
       userName={localStorage.getItem("username")}
       userSecret={localStorage.getItem("password")}
@@ -27,5 +27,7 @@ const App = () => {
     />
   );
 };
+
+// infinite scroll, logout, more customizations...
 
 export default App;

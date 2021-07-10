@@ -9,7 +9,7 @@ import AppsPage from "./Components/AppsPage";
 import Sign from "./Components/SignUp";
 import Help from "./Components/Help";
 import Calendar from "./TeamsCalendar/calendar_app";
-import Chat from "./Chat/src/TeamsChat";
+import Chat from "./Chat/src/App";
 import Login from "./Components/Login";
 import Signup from "./Components/SignUp";
 import Welcome from "./Components/Welcome";

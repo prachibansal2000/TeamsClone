@@ -253,7 +253,6 @@
 
 .form {
   width: 400px;
-  margin-left: 9%;
 }
 
 .title {
@@ -299,19 +298,4 @@
 .button:hover span:after {
   opacity: 1;
   right: 0;
-}
-@media screen and (max-width: 530px) {
-  .form {
-    margin-left: 13%;
-  }
-}
-@media screen and (max-width: 480px) {
-  .form {
-    margin-left: 16%;
-  }
-}
-@media screen and (max-width: 380px) {
-  .form {
-    margin-left: 18%;
-  }
 }
