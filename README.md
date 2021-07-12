@@ -7,6 +7,7 @@
 - Make a Microsoft Teams Clone
 
 ## [VIEW LIVE DEMO](https://teams-application.netlify.app/)
+## [DOCUMENTATION](https://docs.google.com/document/d/1b8otm4qYayKBOFsnuqCGPy1hO4EXRy_mzThTtNkHiwQ/edit?usp=sharing)
 
 **Note** : Chat feature can be used only with **Username: PrachiBansal,Reena,Aman,Rahul** and **Password: 123123**
 
@@ -36,9 +37,9 @@ $ npm start
 
 ## Workflow
 
-Sign Up Page
-Login Page
-Home Page
+- Sign Up Page
+- Login Page
+- Home Page
 
 I have added easy to comprehend icons on the Homepage
 
@@ -84,8 +85,13 @@ I have added easy to comprehend icons on the Homepage
 
 ### Future Scope
 
-- Organize online classes and meeting.
-- Share images and download them from the chat.
+- Organize online classes and meetings.
+- Able to send and receive messages.
+- Able to download and send images from the chat.
+- Able to make groups and delete groups.
+- Able to add people in the group.
+- Able to access the calendar.
+
 
 ### Pending Work
 
