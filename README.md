@@ -12,7 +12,6 @@
 
 ## 🚧 Technology Stack
 
-- **Server Enviornment** - NodeJS
 - **Frontend** - ReactJS, HTML, CSS, Javascript
 - **SMS sending** - Chatengine.io
 - **Video calling** - daily.co
