@@ -8,7 +8,7 @@
 
 ## [VIEW LIVE DEMO](https://teams-application.netlify.app/)
 
-## [DOCUMENTAION](https://docs.google.com/document/d/1b8otm4qYayKBOFsnuqCGPy1hO4EXRy_mzThTtNkHiwQ/edit?usp=sharing)
+## [DOCUMENTATION](https://docs.google.com/document/d/1b8otm4qYayKBOFsnuqCGPy1hO4EXRy_mzThTtNkHiwQ/edit?usp=sharing)
 
 **Note** : Chat feature can be used only with **Username: PrachiBansal,Reena,Aman,Rahul** and **Password: 123123**
 
