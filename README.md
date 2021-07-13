@@ -8,6 +8,8 @@
 
 ## [VIEW LIVE DEMO](https://teams-application.netlify.app/)
 
+## [DOCUMENTAION](https://docs.google.com/document/d/1b8otm4qYayKBOFsnuqCGPy1hO4EXRy_mzThTtNkHiwQ/edit?usp=sharing)
+
 **Note** : Chat feature can be used only with **Username: PrachiBansal,Reena,Aman,Rahul** and **Password: 123123**
 
 ## 🚧 Technology Stack
@@ -99,3 +101,5 @@ I have added easy to comprehend icons on the Homepage
 - Add a Create Team option and able to add users to it.
 - Connect this project with the database so that only authorized Microsoft Teams user can sign in.
 - Option to remove or allow a user in the meeting.
+
+## [VIDEO DEMO](https://drive.google.com/file/d/1yjW80BaxCMDrFP-gxC9Isjqo9OUjSYej/view?usp=sharing)
